@@ -19,10 +19,6 @@
 
 #define __STDC_FORMAT_MACROS
 
-#ifdef __cplusplus
-#include <version>
-#endif
-
 #if !defined(__cplusplus) || defined(__cpp_lib_stdatomic_h)
 #define PL_HAVE_STDATOMIC
 #endif
